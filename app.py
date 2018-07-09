@@ -60,9 +60,7 @@ def precipitation():
     precip_data= []
 
     for result in results:
-        precip_dict ={}
-        precip_dict['Date'] = result[0]
-        precip_dict['precip'] = result[1]
+        precip_dict ={result[0]:result[1]}
         precip_data.append(precip_dict)
 
     return jsonify(precip_data)
@@ -88,9 +86,7 @@ def tobs():
     temp_data= []
 
     for result in results:
-        temp_dict ={}
-        temp_dict['Date'] = result[0]
-        temp_dict['tobs'] = result[1]
+        temp_dict ={result[0]:result[1]}
         temp_data.append(temp_dict)
 
     return jsonify(temp_data)
