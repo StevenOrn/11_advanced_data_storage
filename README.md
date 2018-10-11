@@ -3,7 +3,7 @@
 # Surfs Up!
 
 <!--lint enable no-heading-punctuation-->
-![surfs-up.jpeg](Images/surfs-up.jpeg)
+![surfs-up.jpeg](Images/surfs-up.jpeg?raw=true)
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you decided to do some climate analysis on the area. Because you are such an awesome person, you have decided to share your ninja analytical skills with the community by providing a climate analysis API. The following outlines what you need to do.
 
@@ -63,7 +63,7 @@ You are now ready to use Python and SQLAlchemy to do basic climate analysis and 
 
 * Plot the results using the DataFrame `plot` method.
 
-<center><img src='Images/precip.png' /></center>
+![precip](Images/precip.png?raw=true)
 
 * Use Pandas to print the summary statistics for the precipitation data.
 
@@ -83,7 +83,7 @@ You are now ready to use Python and SQLAlchemy to do basic climate analysis and 
 
   * Plot the results as a histogram with `bins=12`.
 
-  <center><img src='Images/temp_hist.png' height="400px" /></center>
+![temp](Images/temp_hist.png?raw=true)
 
 ### Temperature Analysis
 
@@ -97,7 +97,7 @@ You are now ready to use Python and SQLAlchemy to do basic climate analysis and 
 
   * Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
 
-<center><img src='Images/temp_avg.png' height="400px"/></center>
+![temp_avg](Images/temp_avg.png?raw=true)
 
 ### Optional Recommended Analysis
 
@@ -115,7 +115,7 @@ You are now ready to use Python and SQLAlchemy to do basic climate analysis and 
 
   * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-  <center><img src="Images/daily_normals.png" /></center>
+![norms](Images/daily_normals.png?raw=true)
 
 - - -
 
